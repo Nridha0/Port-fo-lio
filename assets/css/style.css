@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5faf9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, "sans-serif";color: ;
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    background-color: #13293d;
+    color: #32a89d;
+    line-height: 1;
+}
+h1 {
+    font-size: 200%;
+    background-color: #32a89d;
+    color: #13293d;
+}
+li {
+    display: inline;
+    flex: end;
+    padding: 0 20px;
+    font-style: underline;
+    text-decoration: underline;
+    font-size:medium;
+}
+header {
+    min-height:300px;
+}
+header h2{
+    font-size: 20px;
+    color:#13293d;
+    font-decoration: bold;
+    justify-content: center;
+    background-color: #32a89d;
+    border: solid 3px #32a89d ;
+    padding: 2%;
+    text-align: center;
+}
+h3 {
+    background-color: #32a89d;
+
+
+}
+P {
+    text-align: center;
+    padding: 40px;
+    
+}
+section h2{
+    font-size: 20px;
+    color:#13293d;
+    font-decoration: bold;
+    justify-content: center;
+    background-color: #32a89d;
+    border: solid 3px #32a89d ;
+    padding: 2%;
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box4 {
+    border:#13293d solid;
+    height: 200px;
+    cursor: pointer;
+    position:relative;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap:20px;
+    flex-direction: row;
+    color: #f5faf9;
+    background-color:#f5faf9;
+    padding: 20px;
+    justify-content: center;
+}
+
+.box1 {
+    background-image: url("../images/img0.jpeg");
+    background-size: contain;
+   
+}
+.box2 {
+    background-image: url("../images/img2.webp");
+    background-size: contain;
+   
+}
+.box3 {
+    background-image: url("../images/img2.webp");
+    background-size: contain;
+}
+.box4 {
+    background-image: url("../images/img2.webp");
+    background-size: contain;
+}
+
+main {
+    position: relative;
+    display: block;
+}
+
+div h2 {
+    font-size: 20px;
+    color:#13293d;
+    font-decoration: bold;
+    justify-content: center;
+    background-color: #32a89d;
+    border: solid 3px #32a89d ;
+    padding: 2%;
+    text-align: center;
+}
+ul {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
